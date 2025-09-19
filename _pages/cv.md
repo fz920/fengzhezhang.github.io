@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: "Curriculum Vitae"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -9,31 +9,50 @@ redirect_from:
 
 {% include base_path %}
 
+> **Research Focus**: Probabilistic Generative Models | Computational Chemistry | Scientific Machine Learning
+
 Education
 ======
-* **MPhil Machine Learning and Machine Intelligence**, University of Cambridge, Cambridge, UK (October 2023 - September 2024)
-  * Achieved a score of 79.87% (Distinction), ranking in the top 10%
+* **MPhil Machine Learning and Machine Intelligence** | *University of Cambridge* (2023-2024)
+  * **Distinction** with score of 79.87%, ranking in the **top 10%** of cohort
+  * **Supervisor**: Prof. José Miguel Hernández-Lobato
+  * **Dissertation**: "Sampling of Molecular Energy Functions via Consistency Models" (Distinction)
+  * **Relevant Coursework**: Advanced Machine Learning, Probabilistic Machine Learning, Deep Learning, Reinforcement Learning
 
-* **BSc Mathematics**, Imperial College London, London, UK (October 2020 - June 2023)
-  * Achieved a score of 88.41% (First Class Honours), ranking in the top 4% (10th out of 251 students)
+* **BSc Mathematics** | *Imperial College London* (2020-2023)
+  * **First Class Honours** with score of 88.41%, ranking **10th out of 251 students** (top 4%)  
+  * **Relevant Coursework**: Probability & Statistics, Numerical Analysis, Optimization, Mathematical Biology, Computational Methods
 
 Research Experience
 ======
-* **Research Assistant**, University of Cambridge (October 2024 – October 2025, expected)
-  * Supervisor: Prof. José Miguel Hernández-Lobato
-  * Developing and applying deep generative models—such as diffusion models and normalizing flows—to accelerate molecular generation and improve sampling accuracy
 
-* **MPhil Dissertation**, University of Cambridge (April 2024 – August 2024)
-  * Supervisor: Prof. José Miguel Hernández-Lobato
-  * Created a Consistency-Model + importance-sampling framework that yields unbiased samples from molecular energy functions and being ≈4×faster than DDPM baselines; dissertation awarded Distinction
+**Research Assistant** | *University of Cambridge* (October 2024 – Present)
+* **Supervisor**: Prof. José Miguel Hernández-Lobato  
+* **Project**: Variance-Tuned Diffusion Models for Boltzmann Sampling
+* Developing novel deep generative models (diffusion models, normalizing flows) for molecular generation
+* Focus on theoretical guarantees for unbiased sampling with computational efficiency improvements
+* Applications in drug discovery and materials science through accelerated molecular dynamics
 
-* **Undergraduate Research Assistant**, Imperial College London (July 2023 – October 2023)
-  * Supervisor: Dr Yingzhen Li
-  * Proposed and experimented a novel algorithm to directly regulate KL divergence during VAE training, eliminating β-VAE hyper-parameter sweeps and generalising to multiple VAE architectures
+**MPhil Dissertation Researcher** | *University of Cambridge* (April 2024 – August 2024)
+* **Supervisor**: Prof. José Miguel Hernández-Lobato
+* **Title**: "Sampling of Molecular Energy Functions via Consistency Models"
+* **Achievement**: Dissertation awarded **Distinction**
+* Created novel Consistency-Model + importance-sampling framework yielding **≈4× speedup** over DDPM baselines
+* Developed unbiased estimators for molecular energy functions with theoretical convergence guarantees
+* Implemented and benchmarked algorithms on real molecular datasets
 
-* **Undergraduate Group Project**, Imperial College London (May 2022 - June 2022)
-  * Supervisor: Dr Sheehan Olver
-  * Developed a deflation-based method to uncover multiple solutions of nonlinear ODE/PDE systems from a single initial guess; project won the Winton Prize for best Mathematics group project
+**Undergraduate Research Assistant** | *Imperial College London* (July 2023 – October 2023)  
+* **Supervisor**: Dr. Yingzhen Li
+* **Project**: Adaptive KL Regularization for Variational Autoencoders
+* Proposed novel algorithm for direct KL divergence regulation during VAE training
+* Eliminated need for β-VAE hyperparameter sweeps across multiple architectures
+* Demonstrated improved training stability and representation quality
+
+**Undergraduate Group Project Leader** | *Imperial College London* (May 2022 - June 2022)
+* **Supervisor**: Dr. Sheehan Olver  
+* **Achievement**: Winner of **The Winton Prize** for best Mathematics group project
+* Developed deflation-based method for discovering multiple solutions of nonlinear ODE/PDE systems
+* Implemented robust numerical algorithms with single initial guess requirement
 
 Teaching Experience
 ======
@@ -59,8 +78,33 @@ Teaching
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Scholarships & Awards
+Technical Skills
 ======
-* **Dean's List** - Recognized among the top 10% of students (2021, 2022, 2023)
-* **Undergraduate Research Bursary** - Awarded by the Mathematics Department (2022)
-* **The Winton Prize** – Outstanding undergraduate 2nd-year group project prize in Mathematics (2022)
+
+**Programming Languages**
+* **Python** (Expert): PyTorch, TensorFlow, JAX, NumPy, SciPy, scikit-learn
+* **Julia** (Proficient): DifferentialEquations.jl, Flux.jl, Plots.jl
+* **MATLAB** (Proficient): Optimization, numerical computing, visualization
+* **R** (Intermediate): Statistical analysis and modeling
+
+**Machine Learning Frameworks**
+* **Deep Learning**: PyTorch Lightning, Weights & Biases, Hydra
+* **Probabilistic Modeling**: Pyro, Edward, TensorFlow Probability  
+* **Scientific Computing**: JAX, AutoDiff, parallel computing
+
+**Research Tools**
+* **Molecular Simulation**: OpenMM, RDKit, molecular dynamics
+* **Computational Chemistry**: Quantum chemistry packages, energy function optimization
+* **High-Performance Computing**: SLURM, distributed training, GPU computing
+
+**Software Development**
+* **Version Control**: Git, GitHub, collaborative development
+* **Documentation**: LaTeX, Jupyter notebooks, technical writing
+* **Deployment**: Docker, cloud computing (AWS, Google Cloud)
+
+Scholarships & Awards  
+======
+* **The Winton Prize** – Outstanding undergraduate group project in Mathematics (2022)
+* **Dean's List** – Recognized among top 10% of students (2021, 2022, 2023)  
+* **Undergraduate Research Bursary** – Awarded by Mathematics Department (2022)
+* **MPhil Distinction** – Top 10% performance in Machine Learning program (2024)
