@@ -1,11 +1,11 @@
 cv:
   name: Fengzhe Zhang
-  label: Machine Learning Researcher
+  label: Incoming PhD Student
   email: fz287@cam.ac.uk
   phone: "+44 7421 727 978"
   location: Cambridge, UK
   image: ""
-  summary: Machine-learning researcher with two years' experience in generative modelling and variational inference; Distinction MPhil at Cambridge; first-author NeurIPS workshop publication.
+  summary: Incoming PhD student at the Gatsby Computational Neuroscience Unit working on generative modelling, variational inference, diffusion-based samplers, and probabilistic machine learning.
 
   social_networks:
     - network: GitHub
@@ -49,10 +49,10 @@ cv:
         position: Research Assistant
         location: Cambridge, UK
         start_date: 2024-10
-        end_date: Present
+        end_date: 2025
         summary: "Supervisor: Prof. Jose Miguel Hernandez-Lobato"
         highlights:
-          - Designing diffusion-based generative samplers for molecular energy functions; early experiments halve sampling time versus baseline DDPM.
+          - Designed diffusion-based generative samplers for molecular energy functions; early experiments halved sampling time versus baseline DDPM.
 
       - company: University of Cambridge
         position: "MPhil Research Project: Efficient and Unbiased Sampling of Boltzmann Distributions"

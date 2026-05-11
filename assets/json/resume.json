@@ -1,11 +1,11 @@
 {
   "basics": {
     "name": "Fengzhe Zhang",
-    "label": "Machine Learning Researcher",
+    "label": "Incoming PhD Student",
     "image": "",
     "email": "fz287@cam.ac.uk",
     "phone": "+44 7421 727 978",
-    "summary": "Machine-learning researcher with two years' experience in generative modelling and variational inference; Distinction MPhil at Cambridge; first-author NeurIPS workshop publication.",
+    "summary": "Incoming PhD student at the Gatsby Computational Neuroscience Unit working on generative modelling, variational inference, diffusion-based samplers, and probabilistic machine learning.",
     "location": {
       "city": "Cambridge",
       "countryCode": "UK"
@@ -24,9 +24,9 @@
       "position": "Research Assistant",
       "location": "Cambridge, UK",
       "startDate": "2024-10",
-      "endDate": "",
+      "endDate": "2025",
       "summary": "Supervisor: Prof. Jose Miguel Hernandez-Lobato",
-      "highlights": ["Designing diffusion-based generative samplers for molecular energy functions; early experiments halve sampling time versus baseline DDPM."]
+      "highlights": ["Designed diffusion-based generative samplers for molecular energy functions; early experiments halved sampling time versus baseline DDPM."]
     }
   ],
   "education": [

@@ -9,8 +9,8 @@ last_name: Zhang
 contact_note: >
   The best way to reach me is by email.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Fengzhe Zhang is a machine-learning researcher working on generative modelling, variational inference,
-  diffusion-based samplers, and probabilistic machine learning.
+  Fengzhe Zhang is an incoming PhD student at the Gatsby Computational Neuroscience Unit working on
+  generative modelling, variational inference, diffusion-based samplers, and probabilistic machine learning.
 footer_text: >
   Built with <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> and
   <a href="https://github.com/alshedivat/al-folio">al-folio</a>. Hosted by
@@ -20,7 +20,7 @@ lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://fz920.github.io # the base hostname & protocol for your site
-baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
+baseurl: /fengzhezhang.github.io # the subpath of your site, e.g. /blog/. Leave blank for root
 last_updated: false # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 back_to_top: true # set to false to disable the back to top button
