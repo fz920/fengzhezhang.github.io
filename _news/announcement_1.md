@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2024-10-01 09:00:00+0000
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+Started as a Research Assistant at the University of Cambridge, working on diffusion-based generative samplers for molecular energy functions.
