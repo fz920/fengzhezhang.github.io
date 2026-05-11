@@ -7,35 +7,35 @@ ninja.data = [{
     title: "about",
     section: "Navigation",
     handler: () => {
-      window.location.href = "/";
+      window.location.href = "/fengzhezhang.github.io/";
     },
   },{id: "nav-publications",
           title: "publications",
           description: "Selected papers and workshop publications.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/publications/";
+            window.location.href = "/fengzhezhang.github.io/publications/";
           },
         },{id: "nav-projects",
           title: "projects",
           description: "Selected research projects in generative modelling, probabilistic ML, and numerical methods.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/projects/";
+            window.location.href = "/fengzhezhang.github.io/projects/";
           },
         },{id: "nav-repositories",
           title: "repositories",
           description: "GitHub profile and selected repositories.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/repositories/";
+            window.location.href = "/fengzhezhang.github.io/repositories/";
           },
         },{id: "nav-cv",
           title: "CV",
           description: "Academic CV and selected research experience.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/cv/";
+            window.location.href = "/fengzhezhang.github.io/cv/";
           },
         },{id: "news-completed-the-mphil-in-machine-learning-and-machine-intelligence-at-the-university-of-cambridge-with-distinction",
           title: 'Completed the MPhil in Machine Learning and Machine Intelligence at the University of...',
@@ -50,33 +50,33 @@ ninja.data = [{
           title: 'Efficient Boltzmann Sampling',
           description: "Consistency models with importance sampling for efficient, unbiased Boltzmann distributions.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/boltzmann-consistency-models/";
+              window.location.href = "/fengzhezhang.github.io/projects/boltzmann-consistency-models/";
             },},{id: "projects-constrain-kl-for-variational-autoencoders",
           title: 'Constrain-KL for Variational Autoencoders',
           description: "A constrained optimisation approach for setting exact KL targets in beta-VAE training.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/constrain-kl-vae/";
+              window.location.href = "/fengzhezhang.github.io/projects/constrain-kl-vae/";
             },},{id: "projects-diffusion-samplers-for-molecular-energies",
           title: 'Diffusion Samplers for Molecular Energies',
           description: "Diffusion-based generative samplers for molecular energy functions.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/diffusion-molecular-samplers/";
+              window.location.href = "/fengzhezhang.github.io/projects/diffusion-molecular-samplers/";
             },},{id: "projects-deflation-techniques-for-nonlinear-pdes",
           title: 'Deflation Techniques for Nonlinear PDEs',
           description: "Sparse Jacobian-Newton deflation in Julia for finding multiple nonlinear PDE solutions.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/nonlinear-pde-deflation/";
+              window.location.href = "/fengzhezhang.github.io/projects/nonlinear-pde-deflation/";
             },},{id: "projects-teaching-and-peer-tutoring",
           title: 'Teaching and Peer Tutoring',
           description: "Tutorials and mentoring for first-year mathematics and numerical analysis students.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/teaching-assistantship/";
+              window.location.href = "/fengzhezhang.github.io/projects/teaching-assistantship/";
             },},{
         id: 'social-cv',
         title: 'CV',
         section: 'Socials',
         handler: () => {
-          window.open("/assets/pdf/Fengzhe_Zhang_CV.pdf", "_blank");
+          window.open("/fengzhezhang.github.io/assets/pdf/Fengzhe_Zhang_CV.pdf", "_blank");
         },
       },{
         id: 'social-email',
